@@ -1,0 +1,1 @@
+~/spark/bin/spark-submit --class org.qcri.sparkpca.AccumXtX --master  spark://$2 --conf spark.driver.maxResultSize=0 --conf spark.network.timeout=4000s --driver-memory 487m --executor-memory 487m --driver-java-options "-Xms400M -Di=/user/hdfs/ -Dhdfsuri=hdfs://$1:9000 -Dwritepath=/user/hdfs/" target/PPCA-Tall-and-Wide-0.0.1-SNAPSHOT.jar

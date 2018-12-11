@@ -1,0 +1,4 @@
+OpenJDK 64-Bit Server VM warning: You have loaded library /root/ephemeral-hdfs/lib/native/libhadoop.so.1.0.0 which might have disabled stack guard. The VM will try to fix the stack guard now.
+It's highly recommended that you fix the library with 'execstack -c <libfile>', or link it with '-z noexecstack'.
+2018-01-31 05:27:53,003 WARN  [main] util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(62)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+          10            8              22178 /user/hdfs
