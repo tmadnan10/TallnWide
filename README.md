@@ -14,10 +14,10 @@ Steps to run TallnWide in a single Cluster (Amazon AWS EMR Cluster)
 8.	Install Apache Maven using the link: https://maven.apache.org/install.html
 9.	Run the following commands to execute TallnWide
 ```
-$ git clone https://github.com/DataMiningResearch/TallnWide.git
+$ git clone https://github.com/tmadnan10/TallnWide_1.git
 $ cd TallnWide/TallnWide_Accum_Scheme/
 $ mvn clean package
-$ cp target/ PPCA-Tall-and-Wide-0.0.1-SNAPSHOT.jar stand_alone/
+$ cp target/PPCA-Tall-and-Wide-0.0.1-SNAPSHOT.jar stand_alone/
 $ cd stand_alone/
 $ spark-submit \
    --master yarn \
